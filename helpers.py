@@ -145,7 +145,7 @@ def iplot_tuning(plot_data):
                             )
                     ),
             yaxis=dict(
-                    title='Accuracy',
+                    title='F1 Score',
                     titlefont=dict(
                             family='Courier New, monospace',
                             size=18,
