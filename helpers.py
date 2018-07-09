@@ -37,9 +37,9 @@ def plot_data(data, y):
         idx = np.random.randint(1, m)
         plt.imshow(np.reshape(data[idx], (8, 8)))
         plt.title('target = {}'.format(y[idx]))
+        plt.xticks([])
+        plt.yticks([])
     plt.subplots_adjust(top=0.92, bottom=0.08, left=0.10, right=0.90, hspace=0.35, wspace=0.35)
-    plt.xticks([])
-    plt.yticks([])
     plt.show()
 
 def plot_tuning(data):
